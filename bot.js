@@ -7,7 +7,7 @@ const { partner, link, idvc }  = require('./config.json');
 client.on('ready',async () => {  await console.log(client.user.tag);})
 client.on('ready', async () => {
  
- client.user.setActivity(`Reklam بەخۆڕایی لینکی سێرڤەرەکەت بنێرە`, { type:'WATCHING' })
+ client.user.setActivity(`Reklam  لینکی سێرڤەرەکەت بنێرە`, { type:'WATCHING' })
 });
 
 
@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
   res.send('Best Managed Bot By Kartal!')
 })
 
-//DSCODES//https://discord.gg/qtkPbKeDSVDSCODES//
+///
 ////////
 
 client.on("messageCreate", (message) => {
@@ -85,7 +85,7 @@ if (message.content === "اعلان") {
 }
 
 });
-//DSCODES//https://discord.gg/qtkPbKeDSV//DSCODES//
+////
 //////////////
 client.on("messageCreate", async message => {
   if (message.channel.type === "dm") return;
@@ -99,7 +99,7 @@ client.on("messageCreate", async message => {
   }
 });
 
-//DSCODES//https://discord.gg/qtkPbKeDSV//DSCODES//
+////
 //////////////
 
 client.on('messageCreate',async (message) => {
@@ -113,7 +113,7 @@ client.on('messageCreate',async (message) => {
     if(!share) return;
     if (cool > Date.now()) {
         return await message.author.send({content : 'ببورە دەتوانیت دووبارە ڕیکلامەکەت بنێریتەوە دوای 24 کاتژمێر '}).catch(async (err) => {
-            await message.channel.send({content : `${message.author} ببورە دەتوانیت دووبارە ڕیکلامەکەت بنێریتەوە دوای کاتژمێر 24۴ کاتژمێر `})
+            await message.channel.send({content : `${message.author} ببورە دەتوانیت دووبارە ڕیکلامەکەت بنێریتەوە دوای کاتژمێر 24 کاتژمێر `})
         }).catch(err => undefined);
     }
     let time = await Date.now() + ms('24h');
@@ -133,7 +133,7 @@ client.on('messageCreate',async (message) => {
        return;
     }}
 })
-//DSCODES//https://discord.gg/qtkPbKeDSV//DSCODES//
+///
 
 
 
@@ -158,6 +158,6 @@ console.log(err)
 });
 
 
-//https://discord.gg/qtkPbKeDSV//DSCODES//
+////
 
 client.login(process.env.token)
