@@ -1,8 +1,13 @@
 ``` 
-II **Join Our Support Server ** II
+**
+Bot Developed By Kartal
 
-II **https://discord.gg/thunder-store** II
 
-II **[https://discord.gg/icstore-s]** II
+Join Our Support Server :
 
+>https://discord.gg/thunder-store 
+
+>https://discord.gg/icstore-s
+
+**
 ```
