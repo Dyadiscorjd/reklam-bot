@@ -7,5 +7,5 @@ https://discord.gg/thunder-store
 
 https://discord.gg/icstore-s
 
-**
+
 ```
